@@ -50,7 +50,16 @@ public class AlessandroGrimaldi_lab3 {
                                    + "e- Salir\n");
                               if(opcion2.equals("a")){
                                   
-                                  
+                                  int repuesto=Integer.parseInt(JOptionPane.showInputDialog("Llantas de repuesto: "));
+                                  String  numeroSerie= JOptionPane.showInputDialog("Numero de serie: ");
+                                  int velocidad=Integer.parseInt(JOptionPane.showInputDialog("Velocidad del carro: "));
+                                  int kilometros=Integer.parseInt(JOptionPane.showInputDialog("Kilometros del carro: "));
+                                  int precio=Integer.parseInt(JOptionPane.showInputDialog("Precio del carro: "));
+                                  Color colorr = new Color(Color.BITMASK);
+                                  Date fecha = new Date();
+                                  String  marcaLlanta= JOptionPane.showInputDialog("Marca de la llanta: ");
+                                  String polarizado = JOptionPane.showInputDialog("Tiene polarizado (Si/No): ");
+                                  carro.add(new Maybach(repuesto, numeroSerie, velocidad,kilometros,precio,colorr,fecha,marcaLlanta,polarizado));
                                   
                               }
                               if(opcion2.equals("b")){
