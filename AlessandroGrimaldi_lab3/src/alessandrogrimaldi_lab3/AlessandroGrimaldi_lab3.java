@@ -103,7 +103,13 @@ public class AlessandroGrimaldi_lab3 {
                          }
                       }
                         if(opcion1.equals("b")){
-                            
+                            int horas=Integer.parseInt(JOptionPane.showInputDialog("Ingrese horas que trabaja: "));
+                            String  nombre= JOptionPane.showInputDialog("Nombre del empleado: ");
+                            String  ID= JOptionPane.showInputDialog("ID del empleado: ");
+                            int edad=Integer.parseInt(JOptionPane.showInputDialog("Edad del empleado: "));
+                            double altura=Integer.parseInt(JOptionPane.showInputDialog("Altura del empleado: "));
+                            int peso=Integer.parseInt(JOptionPane.showInputDialog("Peso del empleado: "));
+                            empleado.add(new Empleado(horas,null,nombre, ID,edad,altura,peso));
                  
              }
                         if(opcion1.equals("c")){
