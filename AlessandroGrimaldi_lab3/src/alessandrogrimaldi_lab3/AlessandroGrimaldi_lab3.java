@@ -113,7 +113,13 @@ public class AlessandroGrimaldi_lab3 {
                  
              }
                         if(opcion1.equals("c")){
-                            
+                            int dinero=Integer.parseInt(JOptionPane.showInputDialog("Dinero del cliente: "));
+                            String  nombre= JOptionPane.showInputDialog("Nombre del cliente: ");
+                            String  ID= JOptionPane.showInputDialog("ID del cliente: ");
+                            int edad=Integer.parseInt(JOptionPane.showInputDialog("Edad del cliente: "));
+                            double altura=Integer.parseInt(JOptionPane.showInputDialog("Altura del cliente: "));
+                            int peso=Integer.parseInt(JOptionPane.showInputDialog("Peso del cliente: "));
+                            cliente.add(new Cliente(dinero,nombre,ID,edad,altura,peso));
              }
              }  
              }
