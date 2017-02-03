@@ -88,7 +88,17 @@ public class AlessandroGrimaldi_lab3 {
                                   carro.add(new Fisker(convert,camion, numeroSerie, velocidad,kilometros,precio,colorr,fecha,marcaLlanta,polarizado));
                               }
                               if(opcion2.equals("d")){
-                                  
+                                  int peso=Integer.parseInt(JOptionPane.showInputDialog("Peso del carro: "));
+                                  int transmision=Integer.parseInt(JOptionPane.showInputDialog("Numero de cambios del carro: "));
+                                  String  numeroSerie= JOptionPane.showInputDialog("Numero de serie: ");
+                                  int velocidad=Integer.parseInt(JOptionPane.showInputDialog("Velocidad del carro: "));
+                                  int kilometros=Integer.parseInt(JOptionPane.showInputDialog("Kilometros del carro: "));
+                                  int precio=Integer.parseInt(JOptionPane.showInputDialog("Precio del carro: "));
+                                  Color colorr = new Color(Color.BITMASK);
+                                  Date fecha = new Date();
+                                  String  marcaLlanta= JOptionPane.showInputDialog("Marca de la llanta: ");
+                                  String polarizado = JOptionPane.showInputDialog("Tiene polarizado (Si/No): ");
+                                  carro.add(new Tramontana(peso, transmision,numeroSerie, velocidad,kilometros,precio,colorr,fecha,marcaLlanta,polarizado));
                               }
                          }
                       }
