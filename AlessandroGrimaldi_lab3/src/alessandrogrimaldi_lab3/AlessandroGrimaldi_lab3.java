@@ -63,7 +63,16 @@ public class AlessandroGrimaldi_lab3 {
                                   
                               }
                               if(opcion2.equals("b")){
-                                  
+                                  String  convert= JOptionPane.showInputDialog("Es convertible o no? ");
+                                  String  numeroSerie= JOptionPane.showInputDialog("Numero de serie: ");
+                                  int velocidad=Integer.parseInt(JOptionPane.showInputDialog("Velocidad del carro: "));
+                                  int kilometros=Integer.parseInt(JOptionPane.showInputDialog("Kilometros del carro: "));
+                                  int precio=Integer.parseInt(JOptionPane.showInputDialog("Precio del carro: "));
+                                  Color colorr = new Color(Color.BITMASK);
+                                  Date fecha = new Date();
+                                  String  marcaLlanta= JOptionPane.showInputDialog("Marca de la llanta: ");
+                                  String polarizado = JOptionPane.showInputDialog("Tiene polarizado (Si/No): ");
+                                  carro.add(new Morgan(convert, numeroSerie, velocidad,kilometros,precio,colorr,fecha,marcaLlanta,polarizado)); //s
                               }
                               if(opcion2.equals("c")){
                                   
