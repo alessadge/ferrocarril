@@ -72,10 +72,20 @@ public class AlessandroGrimaldi_lab3 {
                                   Date fecha = new Date();
                                   String  marcaLlanta= JOptionPane.showInputDialog("Marca de la llanta: ");
                                   String polarizado = JOptionPane.showInputDialog("Tiene polarizado (Si/No): ");
-                                  carro.add(new Morgan(convert, numeroSerie, velocidad,kilometros,precio,colorr,fecha,marcaLlanta,polarizado)); //s
+                                  carro.add(new Morgan(convert, numeroSerie, velocidad,kilometros,precio,colorr,fecha,marcaLlanta,polarizado));
                               }
                               if(opcion2.equals("c")){
-                                  
+                                  String  convert= JOptionPane.showInputDialog("Es convertible o no? ");
+                                  String  camion= JOptionPane.showInputDialog("Es camion o turismo ");
+                                  String  numeroSerie= JOptionPane.showInputDialog("Numero de serie: ");
+                                  int velocidad=Integer.parseInt(JOptionPane.showInputDialog("Velocidad del carro: "));
+                                  int kilometros=Integer.parseInt(JOptionPane.showInputDialog("Kilometros del carro: "));
+                                  int precio=Integer.parseInt(JOptionPane.showInputDialog("Precio del carro: "));
+                                  Color colorr = new Color(Color.BITMASK);
+                                  Date fecha = new Date();
+                                  String  marcaLlanta= JOptionPane.showInputDialog("Marca de la llanta: ");
+                                  String polarizado = JOptionPane.showInputDialog("Tiene polarizado (Si/No): ");
+                                  carro.add(new Fisker(convert,camion, numeroSerie, velocidad,kilometros,precio,colorr,fecha,marcaLlanta,polarizado));
                               }
                               if(opcion2.equals("d")){
                                   
