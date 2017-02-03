@@ -50,76 +50,26 @@ public class AlessandroGrimaldi_lab3 {
                                    + "e- Salir\n");
                               if(opcion2.equals("a")){
                                   
-                                  int repuesto=Integer.parseInt(JOptionPane.showInputDialog("Llantas de repuesto: "));
-                                  String  numeroSerie= JOptionPane.showInputDialog("Numero de serie: ");
-                                  int velocidad=Integer.parseInt(JOptionPane.showInputDialog("Velocidad del carro: "));
-                                  int kilometros=Integer.parseInt(JOptionPane.showInputDialog("Kilometros del carro: "));
-                                  int precio=Integer.parseInt(JOptionPane.showInputDialog("Precio del carro: "));
-                                  Color colorr = new Color(Color.BITMASK);
-                                  Date fecha = new Date();
-                                  String  marcaLlanta= JOptionPane.showInputDialog("Marca de la llanta: ");
-                                  String polarizado = JOptionPane.showInputDialog("Tiene polarizado (Si/No): ");
-                                  carro.add(new Maybach(repuesto, numeroSerie, velocidad,kilometros,precio,colorr,fecha,marcaLlanta,polarizado));
+                                  
                                   
                               }
                               if(opcion2.equals("b")){
-                                  String  convert= JOptionPane.showInputDialog("Es convertible o no? ");
-                                  String  numeroSerie= JOptionPane.showInputDialog("Numero de serie: ");
-                                  int velocidad=Integer.parseInt(JOptionPane.showInputDialog("Velocidad del carro: "));
-                                  int kilometros=Integer.parseInt(JOptionPane.showInputDialog("Kilometros del carro: "));
-                                  int precio=Integer.parseInt(JOptionPane.showInputDialog("Precio del carro: "));
-                                  Color colorr = new Color(Color.BITMASK);
-                                  Date fecha = new Date();
-                                  String  marcaLlanta= JOptionPane.showInputDialog("Marca de la llanta: ");
-                                  String polarizado = JOptionPane.showInputDialog("Tiene polarizado (Si/No): ");
-                                  carro.add(new Morgan(convert, numeroSerie, velocidad,kilometros,precio,colorr,fecha,marcaLlanta,polarizado));
+                                  
                               }
                               if(opcion2.equals("c")){
-                                  String  convert= JOptionPane.showInputDialog("Es convertible o no? ");
-                                  String  camion= JOptionPane.showInputDialog("Es camion o turismo ");
-                                  String  numeroSerie= JOptionPane.showInputDialog("Numero de serie: ");
-                                  int velocidad=Integer.parseInt(JOptionPane.showInputDialog("Velocidad del carro: "));
-                                  int kilometros=Integer.parseInt(JOptionPane.showInputDialog("Kilometros del carro: "));
-                                  int precio=Integer.parseInt(JOptionPane.showInputDialog("Precio del carro: "));
-                                  Color colorr = new Color(Color.BITMASK);
-                                  Date fecha = new Date();
-                                  String  marcaLlanta= JOptionPane.showInputDialog("Marca de la llanta: ");
-                                  String polarizado = JOptionPane.showInputDialog("Tiene polarizado (Si/No): ");
-                                  carro.add(new Fisker(convert,camion, numeroSerie, velocidad,kilometros,precio,colorr,fecha,marcaLlanta,polarizado));
+                                  
                               }
                               if(opcion2.equals("d")){
-                                  int peso=Integer.parseInt(JOptionPane.showInputDialog("Peso del carro: "));
-                                  int transmision=Integer.parseInt(JOptionPane.showInputDialog("Numero de cambios del carro: "));
-                                  String  numeroSerie= JOptionPane.showInputDialog("Numero de serie: ");
-                                  int velocidad=Integer.parseInt(JOptionPane.showInputDialog("Velocidad del carro: "));
-                                  int kilometros=Integer.parseInt(JOptionPane.showInputDialog("Kilometros del carro: "));
-                                  int precio=Integer.parseInt(JOptionPane.showInputDialog("Precio del carro: "));
-                                  Color colorr = new Color(Color.BITMASK);
-                                  Date fecha = new Date();
-                                  String  marcaLlanta= JOptionPane.showInputDialog("Marca de la llanta: ");
-                                  String polarizado = JOptionPane.showInputDialog("Tiene polarizado (Si/No): ");
-                                  carro.add(new Tramontana(peso, transmision,numeroSerie, velocidad,kilometros,precio,colorr,fecha,marcaLlanta,polarizado));
+                                  
                               }
                          }
                       }
                         if(opcion1.equals("b")){
-                            int horas=Integer.parseInt(JOptionPane.showInputDialog("Ingrese horas que trabaja: "));
-                            String  nombre= JOptionPane.showInputDialog("Nombre del empleado: ");
-                            String  ID= JOptionPane.showInputDialog("ID del empleado: ");
-                            int edad=Integer.parseInt(JOptionPane.showInputDialog("Edad del empleado: "));
-                            double altura=Integer.parseInt(JOptionPane.showInputDialog("Altura del empleado: "));
-                            int peso=Integer.parseInt(JOptionPane.showInputDialog("Peso del empleado: "));
-                            empleado.add(new Empleado(horas,null,nombre, ID,edad,altura,peso));
+                            
                  
              }
                         if(opcion1.equals("c")){
-                            int dinero=Integer.parseInt(JOptionPane.showInputDialog("Dinero del cliente: "));
-                            String  nombre= JOptionPane.showInputDialog("Nombre del cliente: ");
-                            String  ID= JOptionPane.showInputDialog("ID del cliente: ");
-                            int edad=Integer.parseInt(JOptionPane.showInputDialog("Edad del cliente: "));
-                            double altura=Integer.parseInt(JOptionPane.showInputDialog("Altura del cliente: "));
-                            int peso=Integer.parseInt(JOptionPane.showInputDialog("Peso del cliente: "));
-                            cliente.add(new Cliente(dinero,nombre,ID,edad,altura,peso));
+                            
              }
              }  
              }
